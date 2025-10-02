@@ -1,3 +1,3 @@
-### v1.0.1:
+### v0.1.0:
 * Added: MCP server
 * Added: list_books tool
