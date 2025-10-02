@@ -23,7 +23,17 @@ The **MCP Server** project is a backend system for managing data and handling re
 
 2. Install dependencies:
     ```shell
-   go mod tidy
+    go mod tidy
+    ```
+   
+3. Run migrations with goose:
+    ```shell
+    goose -dir ./migrations postgres "host=127.0.0.1 port=5432 user=books_service password=admin123 dbname=books sslmode=disable TimeZone=Europe/Moscow" up
+    ```
+
+4. Run server:
+    ```shell
+    go run main.go
     ```
 
 The server will be available at http://localhost:8080
