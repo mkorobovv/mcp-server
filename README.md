@@ -8,7 +8,8 @@ The **MCP Server** project is a backend system for managing data and handling re
 - **`go.mod` and `go.sum`** — Go dependency management files.
 - **`internal/`** — internal application packages:
     - **`app/`** — business logic and request handling.
-    - **`migrations/`** — database migration scripts.
+    - **`controller`** — mcp tools 
+- **`migrations/`** — database migration scripts.
 - **`deploy/`** — deployment configurations (Dockerfile, CI/CD scripts, etc.).
 - **`LICENSE`** — project license (MIT).
 
